@@ -1,0 +1,4 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^warga/?$ warga.php [NC,L]
+RewriteRule ^warga/([0-9]+)/?$ warga.php?id=$1 [NC,L]
+
